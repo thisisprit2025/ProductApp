@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Product Manager</title>
+</head>
+
+<body>
+
+    <h2>Product Manager</h2>
+
+    <label>Product Name</label><br>
+    <input type="text" id="name"><br><br>
+
+    <label>Product Price</label><br>
+    <input type="number" id="price"><br><br>
+
+    <button onclick="addProduct()">Add Product</button>
+
+    <hr>
+
+    <h3>Product List</h3>
+
+    <table border="1">
+
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Price</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+
+        <tbody id="productTable">
+
+        </tbody>
+
+    </table>
+
+    <script src="src/script.js"></script>
+
+</body>
+
+</html>
