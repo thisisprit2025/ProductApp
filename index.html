@@ -10,6 +10,11 @@
 
     <h2>Product Manager</h2>
 
+    <button onclick="loadProductsFromBlob()">Load Products from Blob</button>
+    <button onclick="clearLocalProducts()">Clear Local Products</button>
+
+    <hr>
+
     <label>Product Name</label><br>
     <input type="text" id="name"><br><br>
 
@@ -32,9 +37,7 @@
             </tr>
         </thead>
 
-        <tbody id="productTable">
-
-        </tbody>
+        <tbody id="productTable"></tbody>
 
     </table>
 
